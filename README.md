@@ -3,7 +3,7 @@ This project was made in MATLAB and its purpose is to recreate a given image wit
 
 A more detailed description of the project can be found below:
 
-The purpose of this project is to create mosaic images. A picture of. mosaic type is obtained by replacing the blocks of pixels in an image. reference with small images from a data collection. The replacement of pixel blocks with pieces is done so that the resulting mosaic approximates the reference image as well as possible.
+The purpose of this project is to create mosaic images. A picture of mosaic type is obtained by replacing the blocks of pixels in an image. reference with small images from a data collection. The replacement of pixel blocks with pieces is done so that the resulting mosaic approximates the reference image as well as possible.
 
 ![image](https://user-images.githubusercontent.com/95238998/224429214-93449ecd-d4fe-40e0-9a10-815cae08b508.png)
 
