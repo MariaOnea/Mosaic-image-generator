@@ -20,3 +20,4 @@ Based on the euclidean distance between average colors(pe baza distantei euclidi
 
 Based on the euclidean distance of all colors(pe baza distantei euclidiene dintre toate culorile ): using this criterion, the pixel blocks in the resized reference image are replaced with pieces chosen so that the sum of the euclidean distances between all the colors of the pixels of a piece and the pixels in the corresponding block is as small as possible.
 
+!!It is necessary to unzip the "data" file and to put all the matlab functions, along with the mosaic pieces in a single folder.
