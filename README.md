@@ -15,6 +15,8 @@ There are 3 functions:
 -adaugaPieseMozaic: The pieces are added in order to obtain a mosaic as similar as the resized reference image. In this implementation, the parts are added from left to right and from top to bottom Each piece is selected based on a criterion. In this project there are 3 possible criteria: 
 
 Random(aleator):using this criterion, the pixel blocks in the resized reference image are replaced by randomly selected parts. Consequently, the mosaic obtained will not resemble the reference image. This criterion is already implemented in Matlab but works only for color images (grayscale images do not work).
+
 Based on the euclidean distance between average colors(pe baza distantei euclidiene dintre culorile medii): using this criterion, the pixel blocks in the resized reference image are replaced with pieces chosen so that the average color of the piece is as close as possible (in the sense of the euclidean distance) to the average color of the block.
+
 Based on the euclidean distance of all colors(pe baza distantei euclidiene dintre toate culorile ): using this criterion, the pixel blocks in the resized reference image are replaced with pieces chosen so that the sum of the euclidean distances between all the colors of the pixels of a piece and the pixels in the corresponding block is as small as possible.
 
