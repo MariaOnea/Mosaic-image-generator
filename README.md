@@ -10,8 +10,11 @@ The purpose of this project is to create mosaic images. A picture of mosaic type
 Mosaic image: For the reference image on the left we get the mosaic on the right. The mosaic pieces are chosen from a collection of 1000 images. Each piece represents a flower.
 
 There are 3 functions: 
+
 -incarcaPieseMozaic: The function "incarcaPieseMozaic.m" displays the first 100 pieces of the mosaic read from the chosen directory in a figure.
+
 -calculeazaPieseMozaic: In order to obtain a mosaic that is as similar as the reference image we will build a mosaic of modified dimensions. The parameter called "numarPieseMozaicOrizontala" (set by default with the value 100) defines the number of horizontal pieces of the mosaic. Based on this parameter, the initial dimensions of the reference image and the dimensions of the pieces (30 × 40 pixels) we can determine the size of the mosaic we will build. In the construction of the mosaic we will use the reference image properly resized.
+
 -adaugaPieseMozaic: The pieces are added in order to obtain a mosaic as similar as the resized reference image. In this implementation, the parts are added from left to right and from top to bottom Each piece is selected based on a criterion. In this project there are 3 possible criteria: 
 
 Random(aleator):using this criterion, the pixel blocks in the resized reference image are replaced by randomly selected parts. Consequently, the mosaic obtained will not resemble the reference image. This criterion is already implemented in Matlab but works only for color images (grayscale images do not work).
